@@ -8,9 +8,9 @@ import sys
 # Add backend to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from backend.clip_service import CLIPService
+from clip_service import CLIPService
 from qdrant_service_fixed import QdrantService
-from backend.memory_service import MemoryService
+from memory_service import MemoryService
 from config_fixed import CRISIS_PROTOCOLS, SYNTHETIC_CRISES
 
 # ============================================================
